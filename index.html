@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support</title>
+<meta name="description" content="Hexhold, an offline hex-tile adventure for iPhone in the spirit of Old School RuneScape: support, privacy and terms.">
+<meta name="theme-color" content="#F3E9D2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15110C" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+  <header>
+    <img class="mark" src="assets/icon-256.png" srcset="assets/icon-256.png 1x, assets/icon-512.png 2x"
+         width="96" height="96" alt="Hexhold app icon">
+    <h1>Hexhold</h1>
+    <p class="tagline">Wash ashore on a windy island, pick up an axe, and see where the road takes you.</p>
+
+    <!-- TODO(owner): swap for Apple's official badge once the app is live. -->
+    <span class="store-badge">In development · Now in TestFlight</span>
+
+    <nav class="sections" aria-label="Sections">
+      <a href="#help">Get help</a>
+      <a href="#faq">Common questions</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <h2 id="about">What it is</h2>
+  <div class="card">
+    <p>
+      Hexhold (a working title) is an offline adventure for iPhone and iPad in the spirit of Old School
+      RuneScape. The world is a board of hexes: tap where you want to go, and
+      everything happens on a steady 0.6-second game tick. Chop, fish, mine,
+      smith and cook; fight with steel or with magic tiles laid in a rosette;
+      run a market stall; and travel the six provinces of the Wardlands.
+    </p>
+    <p class="muted small">
+      For iPhone and iPad, played in portrait with one thumb. No account, no ads, no
+      tracking, and no internet needed. Names in the game are working names
+      and may change before release.
+    </p>
+  </div>
+
+
+  <h2 id="help">Get help</h2>
+  <div class="card">
+    <p style="margin:0">
+      Found a bug, stuck somewhere, or have an idea? If you're testing through TestFlight, send feedback from the TestFlight app, or take a screenshot while playing and TestFlight will offer to send it.
+    </p>
+    <p class="muted small" style="margin:.9rem 0 0">
+      When reporting a bug, it helps to include your iPhone model, iOS
+      version, where in the game you were and what you were doing.
+    </p>
+  </div>
+
+  <h2 id="faq">Common questions</h2>
+  <div class="card">
+
+    <details>
+      <summary>Do I need to be online?</summary>
+      <p>
+        No. Hexhold runs entirely on your iPhone. There are no servers, no
+        account and nothing to sign in to.
+      </p>
+    </details>
+
+    <details>
+      <summary>How do I save?</summary>
+      <p>
+        You don't need to. The game saves every few seconds when something
+        changes, and again whenever you leave the app, travel or sleep.
+      </p>
+    </details>
+
+    <details>
+      <summary>Does anything happen while the game is closed?</summary>
+      <p>
+        Once a skill is high enough and you've unlocked Muscle Memory, yes: your character keeps gathering or
+        making things at a slower pace, for up to 12 hours. Everything else,
+        including the clock and your market stall, waits for you.
+      </p>
+    </details>
+
+    <details>
+      <summary>I died. Have I lost my things?</summary>
+      <p>
+        No. Unless you chose Hard mode, everything waits in a grave near
+        where you fell, and the grave never expires. The compass points to
+        it.
+      </p>
+    </details>
+
+    <details>
+      <summary>How does magic work?</summary>
+      <p>
+        You cast by laying hex tiles in the rosette on the Magic tab. The mix
+        decides the spell, the order doesn't matter, and a mix that isn't a
+        spell never costs you anything.
+      </p>
+    </details>
+
+    <details>
+      <summary>I'm stuck on a quest.</summary>
+      <p>
+        Open the <strong>Journal</strong>: your latest diary line is there,
+        with any controls tip for that step underneath. You can also talk to
+        whoever gave you the quest; they'll repeat what's next. Try
+        long-pressing things near where the quest points you, and check the
+        time of day.
+      </p>
+    </details>
+
+    <details>
+      <summary>How do I start over?</summary>
+      <p>
+        Tap <strong>New Game</strong> on the title screen. It starts in an
+        empty save slot, so your other saves are kept (up to five). To wipe
+        the save you're playing, use <strong>··· › Settings › Reset
+        save…</strong>. It asks first, and a reset save can't be recovered.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can I move my save to a new phone?</summary>
+      <p>
+        Yes. Open <strong>Saves</strong> on the title screen and tap
+        <strong>Export</strong> on a slot, then AirDrop the .hexhold file,
+        send it, or save it to Files. On the other iPhone or iPad, put the file in the Hexhold folder in
+        the Files app and open the game to import it.
+      </p>
+    </details>
+
+  </div>
+
+  <h2 id="privacy">Privacy</h2>
+  <div class="card">
+    <p style="margin:0">
+      Hexhold collects nothing. Your save and settings stay on your device.
+      There are no accounts, no ads, no analytics and no third-party
+      services. <a href="privacy.html">Read the privacy policy</a>.
+    </p>
+  </div>
+
+  <footer>
+    <p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a></p>
+    <p>© 2026 Shayne Torres</p>
+  </footer>
+
+</main>
+</body>
+</html>
